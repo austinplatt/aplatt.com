@@ -1,0 +1,209 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  margin-top: 20px;
+  background-color: #eaeded;
+  padding: 20px;
+  text-align: center;
+}
+
+.linkedin-logo {
+  width: 20px;
+  margin-top: -38px;
+  padding: 20px;
+  margin-right: 17px;
+  margin-left: auto;
+}
+
+.linkedin-logo a:hover svg{
+  fill: #FF69B4;
+}
+
+.github-logo {
+  width: 15px;
+  margin-top: -66px;
+  padding: 20px;
+  margin-left: auto;
+}
+
+.github-logo svg {
+  width: 20px;
+}
+
+.github-logo a:hover svg{
+  fill: #FF69B4;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  margin-left: -40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px; 
+}
+
+.section-header {
+  margin-left: 40px;
+}
+
+.section-header1 {
+  margin-left: 40px;
+}
+
+.section-header1 a {
+  text-decoration: none;  
+  color: inherit;         
+  display: block;         
+  transition: transform 0.3s;
+}
+
+.section-header3 {
+  margin-left: 40px;
+}
+
+.section-header3 a {
+  text-decoration: none;  
+  color: inherit;         
+  display: block;         
+  transition: transform 0.3s;
+}
+
+.section-subheader {
+  margin-left: 40px;
+}
+
+.section-major {
+  margin-left: 40px;
+}
+
+.section-jobtitle {
+  margin-left: 40px;
+}
+
+.section-jobtitle + ul {
+  margin-top: 0; 
+  list-style-type: disc; 
+  margin-left: 60px;
+  padding-left: 20px; 
+  display: block; 
+}
+
+.section-leadership {
+  margin-left: 40px;
+}
+
+.section-leadership + ul {
+  margin-top: 0; 
+  list-style-type: disc; 
+  margin-left: 60px;
+  padding-left: 20px; 
+  display: block; 
+}
+
+.section-languages {
+  margin-left: 40px;
+}
+
+.section-languages + ul {
+  margin-top: 0; 
+  list-style-type: disc; 
+  margin-left: 60px;
+  padding-left: 20px; 
+  display: block; 
+}
+
+.centered-text {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.about-text {
+  margin-left: 5px;
+  margin-right: 40px;
+}
+
+.about-text1 {
+  margin-left: 5px;
+  margin-right: 40px;
+  margin-top: -25px;
+}
+
+.section-tech {
+  margin-left: 40px;
+}
+
+.section-tech + ul {
+  margin-top: 0; 
+  list-style-type: disc; 
+  margin-left: 60px;
+  padding-left: 20px; 
+  display: block; 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+  padding: 10px;
+}
+
+ul li a:hover {
+  color: green;
+  background-color: #d2d5d5;
+  border-radius: 5px;
+}
+
+.image-style {
+  width: 25%; 
+  margin-top: 20px;
+  margin-left: 40px;
+  height: auto; 
+  border: 1px solid #ccc; 
+}
+
+.video-style {
+  width: 25%; 
+  margin-left: 40px;
+  height: auto; 
+  border: 1px solid #ccc; 
+}
+
+.section-line {
+  border-top: 1px solid black;
+  margin-top: 1px; 
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* Styles from index.css */
+body {
+  background-color: #eaeded;
+  margin-bottom: 20px;
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
