@@ -1,6 +1,7 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet'
 import Navbar from './Navbar';
 import './App.css';
 
@@ -222,6 +223,9 @@ const Portfolio = () => (
 function App() {
   return (
     <Router>
+      <Helmet>
+        <title>Austin Platt</title>
+      </Helmet>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
