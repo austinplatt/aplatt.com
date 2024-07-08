@@ -67,6 +67,14 @@ const Resume = () => (
     <section>
       <h2 className="section-header">WORK EXPERIENCE</h2>
       <hr className="section-line" />
+      <h3 className="section-subheader">VIGOR INDUSTRIAL - SEATTLE, WA | April 2024 - Present</h3>
+      <p className="section-jobtitle">Technical Support Technician II</p>
+      <ul>
+        <li>Deliver comprehensive technical support to end-users across the organization, effectively resolving issues related to Office 2010-2016, Windows 10, and various software applications. </li>
+        <li>Configure and troubleshoot a variety of hardware including workstations, laptops, printers, network equipment, and mobile devices (iPhones and iPads).</li>
+        <li>Maintain detailed hardware and software inventory records using Lansweeper, enhancing asset management and ensuring accurate documentation of IT resources.</li>
+        <li>Document and escalate urgent technical issues through Cherwell Service Management ticketing system, ensuring timely resolution and effective communication with relevant teams.</li>
+      </ul>
       <h3 className="section-subheader">PEERASSESSMENT.COM - BOISE, ID | August 2023 - December 2023</h3>
       <p className="section-jobtitle">Full Stack Developer</p>
       <ul>
@@ -95,13 +103,24 @@ const Resume = () => (
         <li>Provide assistance and support to the public to ensure safety and city satisfaction.</li>
         <li>Maintain city landscaping and keep sidewalks clear.</li>
       </ul>
-      <h3 className="section-subheader"> BOISE STATE UNIVERSITY CAMPUS RECREATION | January 2021 - November 2021</h3>
-      <p className="section-jobtitle">Membership Services Attendant</p>
+    </section>
+
+    <section>
+      <h2 className="section-header">SKILLS</h2>
+      <hr className="section-line" />
+      <p className="section-languages">Languages/Technologies:</p>
       <ul>
-        <li>Greet recreation members and provide a positive customer experience with fair, friendly, and courteous service.</li>
-        <li>Oversee the facility to guarantee proper use of recreation equipment according to recreation guidelines.</li>
-        <li>Ensure valid recreation membership and member technical support.</li>
-        <li>Maintain a safe and clean working environment by complying with procedures, rules, and regulations.</li>
+        <li>Java, Active Directory, ServiceNow, Lansweeper, SCCM, Jamf, Cherwell Support Management, JQuery, Javascript, Jira, C, Shell, SQL, PHP, Python, HTML, CSS, Scheme, GoLang.</li>
+      </ul>
+      <p className="section-tech">Team/Technical:</p>
+      <ul>
+        <li>Demonstrated strong communication while providing client support, fostering positive relationships.</li>
+        <li>Utilizing tools such as ServiceNow, Jira, Cherwell or Azure DevOps to track progress, manage tasks, and facilitate transparent communication within the team.</li>
+        <li>Proficient in troubleshooting of software issues encompassing Microsoft 365 applications, Active Directory, group policy, and DNS configurations. </li>
+        <li>Experience configuring and using iOS, Android OS, macOS, Windows and Linux Operating Systems.</li>
+        <li>Hands-on experience in configuring, securing, and optimizing cloud platforms such as AWS and Azure VM’s, and leveraging containerization technologies like Docker for streamlined deployment.</li>
+        <li>Proficient in networking protocols with ensuring efficient data communication and network management.</li>
+        <li>Proficient in designing, implementing, and maintaining relational database management systems.</li>
       </ul>
     </section>
 
@@ -121,25 +140,6 @@ const Resume = () => (
         <li>Key communication liaison between Pi Kappa Alpha Fraternity and all Greek communities.</li>
         <li>Conduct all weekly meetings and events and routinely collaborate with members of the chapter to communicate any updates or new processes within Greek life.</li>
         <li>Govern, serve, and represent Pi Kappa Alpha Fraternity with highest integrity while also improving chapter morale.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2 className="section-header">SKILLS</h2>
-      <hr className="section-line" />
-      <p className="section-languages">Languages:</p>
-      <ul>
-        <li>Java, Javascript, C, C#, SQL, PHP, Python, HTML, CSS, Scheme, GoLang.</li>
-      </ul>
-      <p className="section-tech">Technical:</p>
-      <ul>
-        <li>Knowledge of algorithms, data structures, object oriented programming, and Scrum development.</li>
-        <li>Experience using iOS, Android OS, macOS, Windows and Linux Operating Systems.</li>
-        <li>Hands-on experience in configuring, securing, and optimizing cloud platforms such as AWS and Azure VM’s. </li>
-        <li>Experience in front and back end website development.</li>
-        <li>Proficient with Active Directory, ServiceNow Workflow, and Procurement.</li>
-        <li>Proficient in networking protocols with ensuring efficient data communication and network management.</li>
-        <li>Proficient in designing, implementing, and maintaining relational database management systems.</li>
       </ul>
     </section>
 
